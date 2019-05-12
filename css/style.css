@@ -6,7 +6,7 @@ font-size: 1.8rem;
 
 a, a:hover {
   text-decoration: none;
-  cursor: url('../img/cursor.png'), auto;	
+  cursor: url('../img/cursor.png'), auto;
 }
 
 h2, .h2 {
@@ -47,6 +47,10 @@ p {
   width: 200px;
 }
 
+.btn-start {
+  height: 80px;
+}
+
 .seringue {
   height: 100px;
 }
@@ -55,7 +59,7 @@ p {
   margin-bottom: 7rem;
 }
 
-.ctn-creators, .ctn-description {
+.ctn-creators {
   margin-bottom: 5rem;
 }
 
