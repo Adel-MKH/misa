@@ -14,7 +14,7 @@ h2, .h2 {
   font-weight: 700;
 }
 
-p {
+p, h3 {
   font-family: "VT323";
 }
 
@@ -55,8 +55,12 @@ p {
   height: 100px;
 }
 
-.ctn-techno {
+.ctn-techno, .ctn-step {
   margin-bottom: 7rem;
+}
+
+.step {
+  height: 200px;
 }
 
 .ctn-creators {
