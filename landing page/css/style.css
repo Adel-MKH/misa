@@ -1,0 +1,149 @@
+body {
+background-image: url('../img/sky.png');
+color: #FDFDFD;
+font-size: 1.8rem;
+}
+
+a, a:hover {
+  text-decoration: none;
+  cursor: url('../img/cursor.png'), auto;
+}
+
+h2, .h2 {
+  font-family: "Sarpanch";
+  font-weight: 700;
+}
+
+p, h3 {
+  font-family: "VT323";
+}
+
+.menu {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  padding: 15px;
+  background-color: #585858;
+  z-index: 5;
+}
+
+.menu li {
+  font-size: 1.3rem;
+}
+
+.menu li a {
+  color: #FDFDFD;
+}
+
+.menu li a:hover {
+  color: #d0d0d0;
+}
+
+.ctn-techno p {
+  font-size: 1.5rem;
+}
+
+.fire {
+  width: 200px;
+}
+
+.btn-start {
+  height: 80px;
+}
+
+.seringue {
+  height: 100px;
+}
+
+.ctn-techno, .ctn-step {
+  margin-bottom: 7rem;
+}
+
+.step {
+  height: 200px;
+}
+
+.ctn-creators {
+  margin-bottom: 5rem;
+}
+
+.kissou {
+  height: 150px;
+}
+
+.btn-name {
+  border: 4px solid #585858;
+  background-color: #e1e1e1;
+  font-family: "VT323";
+}
+
+.btn-name:hover {
+  border: 4px solid #727272;
+  background-color: #fff;
+}
+
+footer {
+  font-size: 1.5rem;
+}
+
+.school-logo {
+  height: 40px;
+}
+
+.backtotop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+/* 5 col config */
+.col-2_4,
+.col-sm-2_4,
+.col-md-2_4,
+.col-lg-2_4,
+.col-xl-2_4 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-2_4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+@media (min-width: 540px) {
+    .col-sm-2_4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 720px) {
+    .col-md-2_4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 960px) {
+    .col-lg-2_4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 1140px) {
+    .col-xl-2_4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+/* end 5 col config */
