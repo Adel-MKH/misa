@@ -724,38 +724,5 @@ function playAgain() // pour relancer la partie
 
 function startGame() // remet les variables à 0 avant de relancer le jeu
 {
-	sendRanking.disabled = false;
-	intervalCount = 0;
-	score = 0;
-
-	leftKey = 37;
-	rightKey = 39;
-
-	playerCurrentLane = middleLane;
-
-	currentObstacleCount = 0;	// nombre actuel d'obstacles générés
-	maxObstacleCount = 7;		// nombre maximum d'obstacles présentes en même temps
-	obstacleAppearingChance = 10; // probabilité par défaut de générer un nouvel obstacle (1 sur N), voir fonction newObstacle()
-	framesSinceLastObstacle = 1; // nombre de frames depuis que le dernier obstacle a été généré (pour éviter des obstacles trop rapprochés)
-	minFramesBetweenObstacles = 80;
-
-	lifes = 3;
-	difficultyLevel = 0;	
-
-	isPillActive = false;
-	pillEffectCount = 0;
-	pillEffectMaxDuration = 800;
-
-	lifeSprite1.width = 65;
-	lifeSprite1.height = 90;
-	lifeSprite2.width = 65;
-	lifeSprite2.height = 90;
-	lifeSprite3.width = 65;
-	lifeSprite3.height = 90;
-
-	obstacles = [];
-	activeBonus = [];
-	elements = [];
-
-	intervalId = setInterval(mainGame, 10);
+	document.location.reload(true);
 }
