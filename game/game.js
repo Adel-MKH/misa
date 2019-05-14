@@ -703,7 +703,7 @@ function gameOver()
         //showing move, rating, time on modal
         document.getElementById("finalMove").innerHTML = score;
 
-
+        playerName.value = '';
         //closeicon on modal
         closeModal();
     };
