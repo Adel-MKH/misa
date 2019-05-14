@@ -419,6 +419,7 @@ function updateElements(elements, obstaclesSteps, intervalCount) // met à jour 
 
 function handleDifficulty() // gère l'augmentation de la difficulté
 {
+	ctx.font = "50px DS-Digital";
 	ctx.fillText("level " + difficultyLevel, 330, 133);
 
 
@@ -743,6 +744,7 @@ function startGame() // remet les variables à 0 avant de relancer le jeu
 
 	isPillActive = false;
 	pillEffectCount = 0;
+	pillEffectMaxDuration = 800;
 
 	lifeSprite1.width = 65;
 	lifeSprite1.height = 90;
