@@ -6,6 +6,8 @@
   <link rel="icon" type="image/png" href="assets/favicon.png" />
   <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://hammerjs.github.io/dist/hammer.js"></script>
+
 </head>
 <body>
 
@@ -78,9 +80,14 @@
       </form>
     </div>
 </div>
-
+<div data-swipe-threshold="20"
+     data-swipe-timeout="500"
+     data-swipe-ignore="false">
+</div>
 </body>
 <script src="sprite_class.js"></script>
 <script src="game.js"></script>
 <script src="background.js"></script>
+<script src="https://hammerjs.github.io/dist/hammer.js"></script>
+
 </html>

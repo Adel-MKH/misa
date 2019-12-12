@@ -70,6 +70,21 @@ function getRandomInt(max) // génère un entier aléatoire entre 0 et max (non 
   return Math.floor(Math.random() * Math.floor(max));
 }
 
+// create a simple instance
+// by default, it only adds horizontal recognizers
+var mc = new Hammer(gameContainer);
+
+// listen to events...
+mc.on("swipeleft swiperight", function(ev) {
+	if (ev.type == "swipeleft"){
+		event.keyCode = 37;
+	}
+	if (ev.type == "swiperight"){
+		event.keyCode = 39;
+	}
+	handleKeyDown(event);
+});
+
 function handleKeyDown(event) // gère l'évènement appui de touche clavier
 {
 	if (event.keyCode == leftKey) // left
